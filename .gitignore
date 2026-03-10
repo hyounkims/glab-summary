@@ -1,0 +1,12 @@
+# 민감 정보
+config.py
+
+# Python 캐시
+__pycache__/
+*.pyc
+*.pyo
+
+# 기타
+*.log
+review.txt
+total_test.txt
