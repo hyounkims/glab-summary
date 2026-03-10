@@ -6,12 +6,12 @@ import json
 import logging
 from datetime import datetime
 
-from config import (
+from config import MODEL_NAME_PASS1, MODEL_NAME_PASS2
+from prompt import (
     PASS1_PRICE_SYSTEM, PASS1_PRICE_USER,
     PASS1_NEWS_SYSTEM, PASS1_NEWS_USER,
     PASS1_DISCLOSURE_SYSTEM, PASS1_DISCLOSURE_USER,
     PASS2_SYSTEM, PASS2_USER,
-    MODEL_NAME_PASS1, MODEL_NAME_PASS2,
 )
 from utils import call_llm, format_json
 
